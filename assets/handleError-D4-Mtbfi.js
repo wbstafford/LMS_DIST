@@ -1,1 +1,0 @@
-import{e as r}from"./index-2WPDJfjq.js";const o=s=>{if(r.isAxiosError(s)){const e=s;return e.response&&e.response.data&&e.response.data.message?e.response.data.message:e.message}else if(s instanceof Error)return s.message;return"An unexpected error occurred."};export{o as g};
